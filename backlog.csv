@@ -1,0 +1,46 @@
+Epic,Issue Type,Summary,Description,Acceptance Criteria,Estimate
+Project Setup,Epic,Project: Coffee Van Prototype,Initial Unity project and repo setup,N/A,1
+Project Setup,Story,Create Unity project and git repo,Create Unity 2021/2022 project with standard structure,Repo initialized with README and .gitignore,0.5
+Project Setup,Task,Add folder conventions and templates,Create Assets/Scripts, Assets/Scenes, Assets/Prefabs, Assets/Resources,Folders present in repo,0.25
+Project Setup,Task,Add JSON import editor script,Add JSONToScriptableObjectsEditor.cs to Tools,Editor,Can import ingredients/recipes/cards,0.5
+Core Systems,Epic,Core Systems: Order/Customer/Inventory,Implement core gameplay systems, N/A,0
+Core Systems,Story,Implement Ingredient & Recipe data structures,ScriptableObject classes and JSON schemas,IngredientSO and RecipeSO implemented,1
+Core Systems,Task,Implement InventorySystem,Tracks ingredient counts, batch prepared products,Inventory persistence works,2
+Core Systems,Story,Implement OrderSystem,Spawns orders, tracks timers and queues,Orders spawn and can be completed/failed,3
+Core Systems,Task,Implement Customer model,Patience, budget, preference,Customer types present and vary,1
+Day/Night Loop,Epic,Day/Night flow and Tour management,Manage multiple days, phases, and tour lifecycle, N/A,0
+Day/Night Loop,Story,Implement TourManager,Handles selected tour (1-5 days),tour state persisted,2
+Day/Night Loop,Task,Implement DayManager & phases,Matin/Midi/Après-midi/Goûter phases,Phases advance and spawn correct rates,2
+Day/Night Loop,Task,Implement NightPrep UI,Player chooses batch quantities for next day,Night prep saves prepared units,1
+Minigames,Epic,Minigames: Packing & Baking,Design and integrate minigames,N/A,0
+Minigames,Story,Minigame A: Packing prototype,Tetris-like packing to conserve stock,Packing returns correct conserve% based on performance,3
+Minigames,Story,Minigame B: Night Baking prototype,Rhythm/sequence bake to increase yield,Baking adjusts yield as expected,3
+Minigames,Task,Minigame integration between days,Hook minigame outcomes to inventory,Results modify inventory/spoil,1
+Card System,Epic,Card deck & shop system,Buying and applying cards (30 cards provided),N/A,0
+Card System,Story,Implement CardSO and CardManager,Card draw, apply, durations,Card effects applied and persisted,3
+Card System,Task,Shop UI for drawing packs,UI to spend $ and get card(s),Pack draw logic & UI implemented,2
+Card System,Task,Implement card effects pipeline,Effects (storage, spoil, recipes, buffs) applied to game systems,3
+Service Gameplay,Epic,Service interactions and UI,Player prepares/serves items via bench UI, N/A,0
+Service Gameplay,Story,Implement prepare/serve mechanics for Espresso and Sandwich,Click/timing based prepare and serve,Orders completed change inventory and currency,3
+Service Gameplay,Task,Implement order HUD and queue,Visual timers and order list,UI shows orders and timers,1
+Economy & Balancing,Epic,Economy, prices, costs, tips, reputation system,N/A,0
+Economy & Balancing,Story,Implement currency & tip system,Money increments, tips formula implemented,Monetary values updated on serve,1
+Economy & Balancing,Task,Implement reputation & tour unlocks,Reputation increases and unlocks tours,Reputation tracked and used in UI,1
+UI / UX,Epic,UI & UX polish,HUD, menus, readability, N/A,0
+UI / UX,Story,Main menu & map select scene,Choose tour/difficulty,Map select flows to TourManager,1
+UI / UX,Task,Day HUD (money, orders, inventory),HUD reflects live game state,HUD updates correctly,1
+Art & Audio,Epic,Placeholder art & SFX,Low-poly placeholders + basic audio, N/A,0
+Art & Audio,Task,Create or import low-poly van and props,Placeholder assets in scene,Van prefab present,2
+Art & Audio,Task,Add SFX for espresso, button, success,fail,Audio playback for actions,1
+Persistence & Save,Epic,Save/Load, local persistence of progress, N/A,0
+Persistence & Save,Story,Implement local save system,Save tour progress, player balance,inventory,Save & load works,1
+Persistence & Save,Task,Implement save/load for inventory/cards,Save/Load for inventory and owned cards,Save files created,1
+Testing & QA,Epic,Playtesting & balancing,Collect metrics and iterate, N/A,0
+Testing & QA,Task,Add analytics hooks (events),Log sales/failed orders/spoil rates,Basic metrics captured,1
+Testing & QA,Task,Internal playtest and balance pass,Run test play sessions and adjust numbers,Adjustments logged,2
+Optional: Multiplayer,Epic,Networking & host/client (future),Mirror integration for auto-hosting, N/A,0
+Optional: Multiplayer,Story,Add Mirror & basic lobby,Host client lobby + spawn players,Players can join lobby,3
+Optional: Multiplayer,Task,Make server authoritative money/inventory,Host validates orders and currency,Host reconciles inventory,3
+Release & Docs,Epic,Release prep & documentation,Builds and README, N/A,0
+Release & Docs,Task,Create README + dev setup guide,How to run project and import JSON,README present,0.5
+Release & Docs,Task,Produce prototype build for testing,Windows standalone build,Build v0.1 created,0.5

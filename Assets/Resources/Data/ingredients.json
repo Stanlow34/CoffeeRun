@@ -1,0 +1,15 @@
+[
+  { "id": "beans", "displayName": "Grains de café", "cost": 0.10, "spoilRatePerDay": 0.01, "tags": ["coffee","liquid"] },
+  { "id": "milk", "displayName": "Lait", "cost": 0.05, "spoilRatePerDay": 0.20, "tags": ["dairy"] },
+  { "id": "chocolate_powder", "displayName": "Chocolat en poudre", "cost": 0.08, "spoilRatePerDay": 0.02, "tags": ["chocolate"] },
+  { "id": "tea_leaves", "displayName": "Thé", "cost": 0.04, "spoilRatePerDay": 0.01, "tags": ["tea"] },
+  { "id": "ice", "displayName": "Glace", "cost": 0.02, "spoilRatePerDay": 0.05, "tags": ["cold"] },
+  { "id": "fruit", "displayName": "Fruits", "cost": 0.30, "spoilRatePerDay": 0.25, "tags": ["fruit","perishable"] },
+  { "id": "bread", "displayName": "Pain", "cost": 0.20, "spoilRatePerDay": 0.10, "tags": ["bakery"] },
+  { "id": "cheese", "displayName": "Fromage", "cost": 0.40, "spoilRatePerDay": 0.15, "tags": ["dairy"] },
+  { "id": "meat", "displayName": "Viande", "cost": 0.80, "spoilRatePerDay": 0.20, "tags": ["perishable"] },
+  { "id": "dough", "displayName": "Pâte", "cost": 0.25, "spoilRatePerDay": 0.12, "tags": ["bakery"] },
+  { "id": "sugar", "displayName": "Sucre", "cost": 0.02, "spoilRatePerDay": 0.01, "tags": ["pantry"] },
+  { "id": "butter", "displayName": "Beurre", "cost": 0.15, "spoilRatePerDay": 0.12, "tags": ["dairy"] },
+  { "id": "wraps", "displayName": "Wraps", "cost": 0.18, "spoilRatePerDay": 0.08, "tags": ["bakery"] }
+]

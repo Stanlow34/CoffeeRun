@@ -1,0 +1,112 @@
+[
+  {
+    "id": "espresso",
+    "displayName": "Espresso",
+    "ingredients": [ { "ingredientId": "beans", "quantity": 1 } ],
+    "salePrice": 2.00,
+    "estimatedCost": 0.30,
+    "prepTimeSeconds": 2.0,
+    "complexity": "Low",
+    "tags": ["hot","coffee"]
+  },
+  {
+    "id": "latte",
+    "displayName": "Latte",
+    "ingredients": [ { "ingredientId": "beans", "quantity": 1 }, { "ingredientId": "milk", "quantity": 1 } ],
+    "salePrice": 3.50,
+    "estimatedCost": 0.60,
+    "prepTimeSeconds": 4.0,
+    "complexity": "Medium",
+    "tags": ["hot","coffee"]
+  },
+  {
+    "id": "cappuccino",
+    "displayName": "Cappuccino",
+    "ingredients": [ { "ingredientId": "beans", "quantity": 1 }, { "ingredientId": "milk", "quantity": 1 } ],
+    "salePrice": 3.20,
+    "estimatedCost": 0.55,
+    "prepTimeSeconds": 4.0,
+    "complexity": "Medium",
+    "tags": ["hot","coffee"]
+  },
+  {
+    "id": "hot_chocolate",
+    "displayName": "Chocolat chaud",
+    "ingredients": [ { "ingredientId": "chocolate_powder", "quantity": 1 }, { "ingredientId": "milk", "quantity": 1 } ],
+    "salePrice": 2.80,
+    "estimatedCost": 0.50,
+    "prepTimeSeconds": 3.0,
+    "complexity": "Low",
+    "tags": ["hot","chocolate"]
+  },
+  {
+    "id": "tea",
+    "displayName": "Thé",
+    "ingredients": [ { "ingredientId": "tea_leaves", "quantity": 1 } ],
+    "salePrice": 2.20,
+    "estimatedCost": 0.20,
+    "prepTimeSeconds": 2.0,
+    "complexity": "Low",
+    "tags": ["hot","tea"]
+  },
+  {
+    "id": "iced_coffee",
+    "displayName": "Iced Coffee",
+    "ingredients": [ { "ingredientId": "beans", "quantity": 1 }, { "ingredientId": "ice", "quantity": 1 } ],
+    "salePrice": 3.00,
+    "estimatedCost": 0.45,
+    "prepTimeSeconds": 3.0,
+    "complexity": "Medium",
+    "tags": ["cold","coffee"]
+  },
+  {
+    "id": "fruit_smoothie",
+    "displayName": "Smoothie",
+    "ingredients": [ { "ingredientId": "fruit", "quantity": 2 }, { "ingredientId": "ice", "quantity": 1 } ],
+    "salePrice": 4.50,
+    "estimatedCost": 1.20,
+    "prepTimeSeconds": 5.0,
+    "complexity": "High",
+    "tags": ["cold","fruit"]
+  },
+  {
+    "id": "sandwich_simple",
+    "displayName": "Sandwich simple",
+    "ingredients": [ { "ingredientId": "bread", "quantity": 2 }, { "ingredientId": "cheese", "quantity": 1 } ],
+    "salePrice": 5.00,
+    "estimatedCost": 1.60,
+    "prepTimeSeconds": 5.0,
+    "complexity": "Medium",
+    "tags": ["food","sandwich"]
+  },
+  {
+    "id": "sandwich_full",
+    "displayName": "Sandwich complet",
+    "ingredients": [ { "ingredientId": "bread", "quantity": 2 }, { "ingredientId": "meat", "quantity": 1 }, { "ingredientId": "cheese", "quantity": 1 } ],
+    "salePrice": 7.50,
+    "estimatedCost": 2.20,
+    "prepTimeSeconds": 8.0,
+    "complexity": "High",
+    "tags": ["food","sandwich"]
+  },
+  {
+    "id": "cookie",
+    "displayName": "Cookie",
+    "ingredients": [ { "ingredientId": "dough", "quantity": 1 }, { "ingredientId": "sugar", "quantity": 1 }, { "ingredientId": "butter", "quantity": 1 } ],
+    "salePrice": 2.50,
+    "estimatedCost": 0.40,
+    "prepTimeSeconds": 1.0,
+    "complexity": "Low",
+    "tags": ["baked","snack"]
+  },
+  {
+    "id": "slice_cake",
+    "displayName": "Part de gâteau",
+    "ingredients": [ { "ingredientId": "dough", "quantity": 2 }, { "ingredientId": "sugar", "quantity": 1 }, { "ingredientId": "butter", "quantity": 1 } ],
+    "salePrice": 3.50,
+    "estimatedCost": 0.80,
+    "prepTimeSeconds": 1.0,
+    "complexity": "Medium",
+    "tags": ["baked","dessert"]
+  }
+]
